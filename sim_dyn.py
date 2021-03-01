@@ -155,8 +155,7 @@ def update_disagreement_weightedEdges(Z, i, j, **kwargs):
 		# the weighted distance including all issues and the party dimension
 		norm = (1-kwargs['party_w']) * x + kwargs['party_w'] * y
 
-	alpha = kwargs['C']
-	w = norm - (1-alpha)
+	w = norm - kwargs['C']
 
 	def log_sample(w):
 		return 1/(1+np.e**(w*kwargs['log_s']))
