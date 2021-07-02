@@ -170,9 +170,9 @@ def update_disagreement_weightedEdges(Z, i, j, **kwargs):
 	elif coin >= r:     # negative influence
 		for d in range(Z.shape[1]-1):  # for every dyn dimension
 			if Z[j, d] > Z[i, d]:
-				Z[i, d] = Z[i, d] - random.random() * norm * (Z[i, d]-(-1))/2
+				Z[i, d] = Z[i, d] - random.random() * norm * (Z[i, d]-(-1))
 			elif Z[j, d] < Z[i, d]:
-				Z[i, d] = Z[i, d] + random.random() * norm * (1-Z[i, d])/2
+				Z[i, d] = Z[i, d] + random.random() * norm * (1-Z[i, d])
 			else:
 				if Z[j, d] > 0:
 					# move randomly lower
