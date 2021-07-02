@@ -3,6 +3,9 @@
 
 A multi-agent simulation of the polarization process, especially for small groups. 
 
+**Currently this repository only contains the functions used in the main paper. 
+Some additional functionalities used in the Supplementary section (e.g. the multi-party settings in the "Robustness Test") 
+will be updated later.**
 
 ## The structure
 
