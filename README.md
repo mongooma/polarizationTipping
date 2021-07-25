@@ -66,3 +66,8 @@ numpy=1.18.1
 
 ```
 
+## Raw data and code for figure rendering
+
+The data, and the code for generating each figure in the main text, as well as the supplementary, could be found in ```plot/```. Please use the ```.ipynb``` for generating all except Fig. 5, the heatmap in the main text. 
+
+Fig. 5 is generated in Matlab 2018. The data (```.mat```) and the Matlab scripts (```.m```) could be found in ```plot/figure5/```.
