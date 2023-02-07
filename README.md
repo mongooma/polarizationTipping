@@ -30,7 +30,7 @@ The default run of ```main.py``` will output a tab-separated log file under the 
 
 * ```{partyDiff, std}``` indicates the polarization metric outputed. 
 
-When the experiment of ```exo-shock''' is run, the output is of format:
+When the experiment of ```exo-shock``` is run, the output is of format:
 
 ```
 T  polarization polarization_shock
@@ -47,7 +47,7 @@ The code records the polarization change at every ```100``` steps. But the user 
 
 ## Usages
 
-The default run of ```main.py``` will output the single run result for $\alpha=.5$, $\beta=.5$, $\gamma=.5$, and $\sigma=.4$ ($\sigma<.32$ will not be meaningful for the current initialization).
+The default run of ```main.py``` will output the single run result for $\alpha=.5$, $\beta=.5$, $\gamma=.5$, and $\sigma=.4$ ( $\sigma < .32$ will not be meaningful for the current initialization).
 
 For other parameter settings, please modify the ```params``` dictionary list at the top of the ```__main__``` function. 
 
@@ -71,3 +71,10 @@ numpy=1.18.1
 The data, and the code for generating each figure in the main text, as well as the supplementary, could be found in ```plot/```. Please use the ```.ipynb``` for generating all except Fig. 5, the heatmap in the main text. 
 
 Fig. 5 is generated in Matlab 2018. The data (```.mat```) and the Matlab scripts (```.m```) could be found in ```plot/figure5/```.
+
+
+## Cite format
+
+If you would like to cite this project please use the following citation info:
+
+*Macy, M. W., Ma, M., Tabin, D. R., Gao, J., & Szymanski, B. K. (2021). Polarization and tipping points. Proceedings of the National Academy of Sciences, 118(50), e2102144118.*
